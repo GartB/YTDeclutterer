@@ -8,6 +8,16 @@ Youtube DeClutterer is a lightweight browser extension that removes channel logo
 
 ---
 
+## Installation
+
+You can easily download and use Youtube DeClutterer for Firefox here: [Download from Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/youtube-declutterer/).
+
+1. Click the link above.
+2. Add the extension to Firefox.
+3. Enjoy a clutter-free Youtube!
+
+---
+
 ## Before and After
 
 ### Before:
