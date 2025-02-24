@@ -18,16 +18,38 @@ You can easily download and use Youtube DeClutterer for Firefox here: [Download 
 
 ---
 
+## Enable / Disable
+
+You can disable and reenable Declutterer easily with this menu that you can show by clicking the Declutterer icon in the top left right next to the Youtube Icon.
+
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/user-attachments/assets/dbe70751-5947-4450-801a-49526e8c97f7" alt="Icon" width="200">
+      <br>Icon
+    </td>
+    <td style="text-align: center;">
+      <img src="https://github.com/user-attachments/assets/f26f075e-9abd-4353-a516-4d567a02348e" alt="Menu" width="200">
+      <br>Menu
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Before and After
 
-### Before:
-<div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/2217f781-0e78-425f-a40e-3431c9951c94" alt="Before Screenshot" width="500">
-</div>
-
-### After:
-<div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/e8a8b8d5-1307-4fcd-a234-b632220587af" alt="After Screenshot" width="500">
-</div>
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/user-attachments/assets/2217f781-0e78-425f-a40e-3431c9951c94" alt="Before Screenshot" width="500">
+      <br>Before
+    </td>
+    <td style="text-align: center;">
+      <img src="https://github.com/user-attachments/assets/e8a8b8d5-1307-4fcd-a234-b632220587af" alt="After Screenshot" width="500">
+      <br>After
+    </td>
+  </tr>
+</table>
 
 ---
