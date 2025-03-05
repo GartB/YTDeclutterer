@@ -54,6 +54,6 @@ You can disable and reenable Declutterer easily with this menu that you can show
 
 ---
 
-##Reporting issues or suggestions**
+##Reporting issues or suggestions
 Feel free to add issues or suggestions to the issues page.
 If you notice something that might warrant blocking via the extension, include a link to the video and a picture if possible.
