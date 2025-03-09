@@ -6,8 +6,8 @@
             '.annotation.annotation-type-custom.iv-branding',
             '.ytp-ce-covering-overlay',
             '.ytp-ce-expanding-image',
-            '.ytp-ce-element'
-			'.div.ytReelMetapanelViewModelMetapanelItem:nth-of-type'
+            '.ytp-ce-element,'
+            '.div.ytReelMetapanelViewModelMetapanelItem:nth-of-type'
         ]
     };
 
