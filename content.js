@@ -2,11 +2,12 @@
     'use strict';
 
     const elementsConfig = {
-        branding: '.annotation.annotation-type-custom.iv-branding',
-        endcards: [
+        elementsToHide: [
+            '.annotation.annotation-type-custom.iv-branding',
             '.ytp-ce-covering-overlay',
             '.ytp-ce-expanding-image',
             '.ytp-ce-element'
+			'.div.ytReelMetapanelViewModelMetapanelItem:nth-of-type'
         ]
     };
 
@@ -34,12 +35,15 @@
         
         icon.style.cssText = `
             cursor: pointer;
-            width: 24px;
-            height: 24px;
+            width: 28px;
+            height: 28px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-left: 5px;
+            background: black;
+            border: 2px solid black;
+            border-radius: 4px;
         `;
         
         icon.appendChild(img);
@@ -60,11 +64,10 @@
         const mainToggle = createToggle('Enable Hiding', 'isEnabled');
         panel.appendChild(mainToggle);
 
-        // Add GitHub link
         const githubLink = document.createElement('a');
         githubLink.href = 'https://github.com/GartB/YTDeclutterer';
         githubLink.textContent = 'GitHub';
-        githubLink.target = '_blank';  // Opens in new tab
+        githubLink.target = '_blank';
         githubLink.style.cssText = `
             display: block;
             margin-top: 5px;
@@ -147,12 +150,7 @@
     function updateVisibility() {
         const displayValue = settings.isEnabled ? 'none' : '';
         
-        const brandingElements = document.querySelectorAll(elementsConfig.branding);
-        brandingElements.forEach(element => {
-            element.style.display = displayValue;
-        });
-
-        elementsConfig.endcards.forEach(selector => {
+        elementsConfig.elementsToHide.forEach(selector => {
             const elements = document.querySelectorAll(selector);
             elements.forEach(element => {
                 element.style.display = displayValue;
