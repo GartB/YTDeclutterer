@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Youtube DeClutterer",
-  "version": "1.4",
+  "version": "1.6",
   "description": "Hides branding and end-of-video pop-ups on YouTube",
   "author": "Garrett",
   "content_scripts": [
