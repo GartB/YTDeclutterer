@@ -2,6 +2,9 @@
   <img src="https://github.com/user-attachments/assets/ada61174-293e-4d6a-8376-85c9d973063f" alt="Youtube DeClutterer Logo" width="300">
 </div>
 
+Youtube effectively added this as a feature.
+I win
+
 # Youtube DeClutterer
 
 Youtube DeClutterer is a lightweight browser extension that removes channel logos from the bottom-right corner of videos and hides those pesky end-of-video pop-ups, giving you an unobstructed view of your content.
